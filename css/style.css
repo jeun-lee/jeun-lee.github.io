@@ -15,6 +15,16 @@
 
     /* size */
     --size-max-width: 1200px;
+
+    /* background */
+    --home-bg-gradient: linear-gradient(180deg, rgba(10,34,77,1) 0%, rgba(5,10,19,1) 100%);
+    
+    --home-bg-svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='613' height='408.7' viewBox='0 0 900 600'%3E%3Cg %3E%3Cpath fill='%23000' d='M306.9 210.2c-1.2-22.8-13.5-42.7-40.8-41.1c-18.3 1.1-35.9 3.6-47.5 20.1c-5.2 7.4-10.6 15.6-11.4 24.9c-0.5 5.8 0.2 12 1.2 17.7c9 49.6 85.3 46.7 96.4 0.2C306.6 224.9 307.3 217.4 306.9 210.2z'/%3E%3Cpath fill='%23000000' d='M137.2 481.3c-13.2-9.9-31.2-13.3-48.5-3.2c-12.6 7.3-19.1 17.4-21.1 28.2c-0.7 2.4-1.2 4.7-1.5 7c-8.2 35.4 33.7 78.9 72.6 48.6C167.6 539.3 164.4 501.6 137.2 481.3z'/%3E%3Cg fill='%23000000' %3E%3Cpath d='M547.9 588.3c-7.1-34.2-61.6-52.7-87.5-16.9c-11.2 11.3-12.7 26.3-7.6 39.7c1.8 7.5 5.5 13.9 10.4 19.1c19.4 20.3 53.4 26.2 72.8 1.9C545.9 619.7 553.9 604.2 547.9 588.3z'/%3E%3Cpath d='M547.9-11.7c-7.1-34.2-61.6-52.7-87.5-16.9c-11.2 11.3-12.7 26.3-7.6 39.7c1.8 7.5 5.5 13.9 10.4 19.1c19.4 20.3 53.4 26.2 72.8 1.9C545.9 19.7 553.9 4.2 547.9-11.7z'/%3E%3C/g%3E%3Cpath fill='%23000000' d='M849.7 498c-22.3 1.3-43.2 7.5-52.7 29.5c-3.3 7.7-7.3 15.7-7 24.3c2 55.6 86.1 63.4 98.8 10.1C890.6 554.6 877.3 496.4 849.7 498z'/%3E%3Cpath fill='%23000000' d='M762 291.1c-8.2-6.1-19.1-1.9-27.3 2.2c-7.4 3.7-14.4 8.2-21.6 12.1c-6.6 3.6-13.7 7-19.8 11.5c-18.3 13.5-2.5 45.1 10.6 56.4c17 14.6 41.6 15.9 59.6 2.1C794.1 351.8 790.7 312.4 762 291.1z'/%3E%3Cpath fill='%23000000' d='M863.3 170.3c-4.5-15.7-17.9-28.8-33.4-34.4c-16.2-5.8-38.4-2.9-51.8 8.1c-14.9 12.2-14.5 31.7-11.4 49c9.6 53.9 84.3 47.7 97-1.3C865.6 184.4 865.3 177.1 863.3 170.3z'/%3E%3Cpath fill='%23000000' d='M598.4 86.1c-10.2 15.5-9.3 34.2-0.9 50.4c2.6 5 6.2 9.5 10.4 13.2c14.2 12.6 35.5 17.1 53.2 9.5c14.3-6.1 23.9-19.8 26.7-34.7C707.4 75.6 629.7 38.5 598.4 86.1z'/%3E%3Cpath fill='%23000000' d='M509.8 413.3c-17.3 22.6-11.8 59 17.5 75.3c22.6 12.6 52.2 1.7 63.8-20.9c21.4-42-9.2-85-56.5-71C523.8 399.9 515.6 405.8 509.8 413.3z'/%3E%3Cpath fill='%23000000' d='M607.4 232.3c-0.5-0.4-1-0.8-1.4-1.2c-16.5-12.8-30.2-22.1-50.3-8.4c-15.5 10.6-29 30.3-31.4 49.1c-4.2 33.6 30.6 46.9 58.6 40.6C619.6 304.2 640.6 259.5 607.4 232.3z'/%3E%3Cpath fill='%23000000' d='M410.6 95c-36.5 1.3-74.1 41.8-43.1 74.3c19.8 20.9 54.4 20.7 74.6 0.5c20.5-20.4 18.4-53.1-6.9-68.6C427.7 96.6 419.2 94.7 410.6 95z'/%3E%3Cpath fill='%23000000' d='M291.3 23c-0.1-0.1-0.1-0.1-0.2-0.2c-14.2-16.9-38.3-25.6-61.4-12.3c-13.5 7.8-20.5 18.7-22.7 30.2c-5.7 18 1.5 34.2 14.2 44.8c15.4 16.8 40.3 24.1 64.2 5.5c9.6-7.4 15-16.3 17.2-25.4C308.6 48.8 302.7 33.6 291.3 23z'/%3E%3Cpath fill='%23000000' d='M419.1 440.6c-16.9-14.5-41.8-21.5-61.7-9.5c-18.3 11.1-1 100.1 32.2 93.5c23.8-4.7 45.3-22.4 48.1-44.3C439.6 466.1 431.5 451.3 419.1 440.6z'/%3E%3Cpath fill='%23000000' d='M127 227c-12-4.3-25.4-2.1-38.7 11.4C71 255.9 61.4 286.1 80.4 306c21.3 22.3 86.9 27.5 89.6-14.9c0.5-8.9-2.7-17.9-6.5-25.8C155.1 248.3 142.1 232.5 127 227z'/%3E%3Cpath fill='%23000000' d='M281.5 407.6c-0.3-0.4-0.7-0.7-1-1c-19.3-17.6-59.1-0.6-78.1 10.3c-23.8 13.7-8.2 41.1 5.4 55.8c16.3 17.6 42.7 25.2 68 5.8C291.3 466.6 295.5 422.7 281.5 407.6z'/%3E%3Cpath fill='%23000000' d='M137.9 110.2c-10.4-25.7-43.3-32.1-67-23.6C60.1 90.4 50 97.8 45.1 108.6c-21.2 47.3 44.9 81.1 78.5 51c9.5-8.5 17.3-18.9 17.4-32.4C141 120.8 139.9 115.1 137.9 110.2z'/%3E%3Cpath fill='%23000000' d='M344.3 284.7c-10 14.9-9.2 34.1-0.9 49.5c3.4 6.3 8.6 13.8 16.1 15.8c7.1 1.9 15.1 0.7 22.1-0.6c15.7-3 45.6-10.5 52.3-26.8C453.5 274.4 375.6 237.9 344.3 284.7z'/%3E%3Cg fill='%23000000' %3E%3Cpath d='M-29.2 431.8c23.4 12.4 54.1 1.7 66.1-20.6c9.6-17.8 10.4-40.4-3.3-56.5c-10.5-12.4-44.2-25.8-58.5-11.3c-3 3.1-5.1 7.1-6.9 10.9C-41.1 373.2-55 418.1-29.2 431.8z'/%3E%3Cpath d='M870.8 431.8c23.4 12.4 54.1 1.7 66.1-20.6c9.6-17.8 10.4-40.4-3.3-56.5c-10.5-12.4-44.2-25.8-58.5-11.3c-3 3.1-5.1 7.1-6.9 10.9C858.9 373.2 845 418.1 870.8 431.8z'/%3E%3C/g%3E%3Cpath fill='%23000' d='M671.4 460.5c-10.7 1.7-20.2 8.3-26.2 22.2c-21.5 49.5 45.4 84.9 79.4 53.3c16.3-15.2 24-31 6.5-48.1c-5.9-5.8-12.3-11-19.1-15.6C699.5 463.7 684.5 458.4 671.4 460.5z'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    /* Divider */
+    --divider-single-wave: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"> <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path> </svg>');
+    --divider-multi-wave: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"> <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path> <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path> <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"></path> </svg>');
+    --divider-arrow: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"> <path d="M649.97 0L550.03 0 599.91 54.12 649.97 0z"></path> </svg>');
 }
 html{
     scroll-behavior: smooth;
@@ -41,8 +51,8 @@ button:focus{outline: 1px solid transparent;}
 .max-container{max-width: var(--size-max-width);margin: auto;}
 
 /* header */
-.header{z-index: 1;position: fixed;top: 0;width: 100%;display: flex;justify-content: space-between;align-items: center;padding: 1rem;color:var(--color-white);background-color: #050a13;transition: all 300ms ease;}
-.header--dark{background-color: var(--color-accent);box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.header{z-index: 1;position: fixed;top: 0;width: 100%;display: flex;justify-content: space-between;align-items: center;padding: 1rem;color:var(--color-white);transition: all 300ms ease;}
+.header--dark{background-color: var(--color-primary);box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;opacity: 0.9;}
 .header__logo{display: flex;align-items: center;gap: 8px;}
 .header__logo__img{width: 36px;height: 36px;}
 .header__logo__title{font-size: 1.8rem;}
@@ -53,13 +63,28 @@ button:focus{outline: 1px solid transparent;}
 .header__menu__item.active{border: 1px solid var(--color-accent);border-radius: 4px;}
 
 /* Home */
-#home{background-color: var(--color-primary);color:var(--color-text);padding: 5rem 1rem;padding-top: 7rem;text-align: center;}
+#home{position: relative;background-color: var(--color-primary);background-image: var(--home-bg-svg);color:var(--color-text);padding: 5rem 1rem;padding-top: 7rem;text-align: center;}
 .home__avatar{width: 250px;height: 250px;object-fit: cover;border: 3px solid var(--color-accent);border-radius: 100%;}
 .home__title{font-size: 3rem;margin-bottom: 1rem;}
 .home__title--strong{color: var(--color-accent)}
 .home__description{font-size: 1.3rem;}
 .home_coneact{display:inline-block;background-color: var(--color-accent);padding: 0.5rem 1rem;margin:2rem;font-weight: bold;color: var(--color-black);border-radius: 4px;}
 .home_coneact:hover{background-color: transparent;outline: 2px solid var(--color-accent);color: var(--color-text)}
+
+#home::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: calc(100% + 1.3px);
+    height: 59px;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    background-color: var(--color-white);
+    mask: var(--divier-single-wave);
+    -webkit-mask: var(--divider-single-wave);
+}
 
 /* About */
 .majors{display: flex;justify-content: space-between;gap: 1rem;margin: 2.5rem 0;}
@@ -74,7 +99,7 @@ button:focus{outline: 1px solid transparent;}
 .job__period{color: var(--color-primary);font-size: 0.8rem;}
 
 /* Skills */
-#skills{background-color: var(--color-primary-variant);color: var(--color-text)}
+#skills{position: relative;background-color: var(--color-primary-variant);color: var(--color-text)}
 .skills{display: grid;grid-template-columns: 6fr 4fr;margin: 2rem 3rem;border-radius: 8px;overflow: hidden;box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12)}
 .skills__title{color: var(--color-accent);margin: 1rem 0;font-size: 1.2rem;}
 .skills__coding{grid-row: span 2;padding: 1rem;background-color: var(--color-primary);}
@@ -85,6 +110,22 @@ button:focus{outline: 1px solid transparent;}
 .bar__metadata{display: flex;justify-content: space-between;}
 .bar__bg{width: 100%;height: 3px;background-color: var(--color-primary-variant);}
 .bar__value{height: 3px;background-color: var(--color-accent);}
+
+
+#skills::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: calc(115% + 1.3px);
+    height: 59px;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    background-color: var(--color-primary);
+    mask: var(--divider-multi-wave);
+    -webkit-mask: var(--divider-multi-wave);
+}
 
 /* Work */
 #work{background-color: var(--color-primary);color: var(--color-text)}
@@ -116,10 +157,24 @@ button:focus{outline: 1px solid transparent;}
 .arrow-up{transition: opacity 300ms ease-in; background-color: var(--color-primary);color: var(--color-white);position: fixed;bottom: 3rem;right: 3rem;font-size: 3rem;width: 4.5rem;height: 4.5rem;border-radius: 100%;text-align: center;box-shadow: 5px 5px 0px 0px var(--color-accent);}
 
 /* Footer */
-#contact{background-color: var(--color-primary);color:var(--color-text)}
+#contact{position: relative;background-color: var(--color-primary);color:var(--color-text)}
 .contact__links{display: flex;justify-content: center;gap: 1rem;padding: 1rem;font-size: 2rem;}
 .contact__link{color:var(--color-white);transition: color 250ms ease-in;}
 .contact__link:hover{color: var(--color-accent);}
+
+#contact::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% + 1.3px);
+    height: 58px;
+    overflow: hidden;
+    line-height: 0;
+    background-color: #ffffff;
+    mask: var(--divider-arrow);
+    -webkit-mask: var(--divider-arrow);
+}
 
 @media screen and (max-width: 768px) {
     .section{padding: 4rem 2rem;}
@@ -147,4 +202,3 @@ button:focus{outline: 1px solid transparent;}
     .testimonial:nth-child(even) .testimonial__img{order: 0;}
     .arrow-up{font-size: 2rem;width: 3rem;height: 3rem;bottom: 1.5rem;right: 1.5rem;}
 }
-

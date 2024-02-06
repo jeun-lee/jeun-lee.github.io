@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- SEO -->
     <title>Ellie&#39;s Portfolio</title>
-    <meta name="description" content="Portfolio for world-renowned software engineer jeun" />
+    <meta name="description" content="Portfolio for world-renowned software engineer j'eun" />
     <meta name="author" content="jeun" />
     <link rel="shortcut icon" href="images/favicon2.ico" type="image/x-icon" />
     <!-- OG (Open Graph Data) -->
@@ -23,19 +23,22 @@
     />
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/45a3115327.js" crossorigin="anonymous"></script>
+    <!-- Typeit -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- Javascript -->
-    <script src="src/main.js" defer></script>
-    <script src="src/projects.js" defer></script>
-    <script src="src/active_menu.js" defer></script>
+    <script type="module" src="src/main.js" defer></script>
+    <script type="module" src="src/projects.js" defer></script>
+    <script type="module" src="src/active_menu.js" defer></script>
+    <script type="module" src="src/type.js" defer></script>
   </head>
 <body>
     <!-- header -->
     <header class="header">
         <div class="header__logo">
             <img class="header__logo__img" src="images/favicon2.ico" alt="logo">
-            <h1 class="header__logo__title><a href="#">Jeun</a></h1>
+            <h1 class="header__logo__title><a href="#">J&#39;eun</a></h1>
         </div>
         <nav class="header__nav">
             <ul class="header__menu">
@@ -57,7 +60,7 @@
         <section id="home" class="section">
           <div class="home__container">
             <img class="home__avatar" src="images/profile.JPG" alt="Jeun's profile" />
-            <h2 class="home__title">Hello <br />I&#39;m <strong class="home__title--strong">Dream Coder</strong>, Jeun</h2>
+            <h2 class="home__title" aria-label="Hello, I'm J">Hello <br />I&#39;m <strong class="home__title--strong">Dream Coder</strong>, J&#39;eun</h2>
             <p class="home__description">A software engineer currently residing in Sydney</p>
             <a class="home_coneact" href="#contact">Contact Me</a>
           </div>
